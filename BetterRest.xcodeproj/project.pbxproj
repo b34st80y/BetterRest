@@ -13,6 +13,7 @@
 		7FD2B74024ACD4C900F5EDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2B73F24ACD4C900F5EDDF /* Assets.xcassets */; };
 		7FD2B74324ACD4C900F5EDDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2B74224ACD4C900F5EDDF /* Preview Assets.xcassets */; };
 		7FD2B74624ACD4C900F5EDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD2B74424ACD4C900F5EDDF /* LaunchScreen.storyboard */; };
+		7FD2B74E24ACD4DC00F5EDDF /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7FD2B74D24ACD4DC00F5EDDF /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7FD2B74224ACD4C900F5EDDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FD2B74524ACD4C900F5EDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD2B74724ACD4C900F5EDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FD2B74D24ACD4DC00F5EDDF /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				7FD2B73F24ACD4C900F5EDDF /* Assets.xcassets */,
 				7FD2B74424ACD4C900F5EDDF /* LaunchScreen.storyboard */,
 				7FD2B74724ACD4C900F5EDDF /* Info.plist */,
+				7FD2B74D24ACD4DC00F5EDDF /* SleepCalculator.mlmodel */,
 				7FD2B74124ACD4C900F5EDDF /* Preview Content */,
 			);
 			path = BetterRest;
@@ -148,6 +151,7 @@
 			files = (
 				7FD2B73A24ACD4C800F5EDDF /* AppDelegate.swift in Sources */,
 				7FD2B73C24ACD4C800F5EDDF /* SceneDelegate.swift in Sources */,
+				7FD2B74E24ACD4DC00F5EDDF /* SleepCalculator.mlmodel in Sources */,
 				7FD2B73E24ACD4C800F5EDDF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
