@@ -54,9 +54,7 @@ struct ContentView: View {
             })
             .padding()
             .alert(isPresented: $showingAlert) {
-                Alert(title: Text(alertTitle),
-                      message: Text(alertMessage),
-                      dismissButton: .default(Text("OK")))
+                alertBox()
             }
         }
     }
@@ -66,6 +64,12 @@ struct ContentView: View {
         components.hour = 8
         components.minute = 0
         return Calendar.current.date(from: components) ?? Date()
+    }
+    
+    fileprivate func alertBox() -> Alert {
+        return Alert(title: Text(alertTitle),
+                     message: Text(alertMessage),
+                     dismissButton: .default(Text("OK")))
     }
     
     func calculateBedtime() {
@@ -94,8 +98,6 @@ struct ContentView: View {
     }
     
 }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
